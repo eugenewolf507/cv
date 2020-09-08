@@ -27,12 +27,12 @@
 5. Code examples:
     * Movie library
         * [React, Redux, Router, Thunk, Axios, CSS Modules, Mobile-first]
-        * [Github Pages]()https://eugenewolf507.github.io/MovieApp/#/)
-        * [Github source]()https://github.com/eugenewolf507/MovieApp)
+        * [Github Pages](https://eugenewolf507.github.io/MovieApp/#/)
+        * [Github source](https://github.com/eugenewolf507/MovieApp)
     * Show Users Born In A Specific Month
         * [React, Axios, CSS Modules, Mobile-first]
-        * [Github Pages]()https://eugenewolf507.github.io/showUsersBornInASpecificMonth/build/)
-        * [Github source]()https://github.com/eugenewolf507/showUsersBornInASpecificMonth)
+        * [Github Pages](https://eugenewolf507.github.io/showUsersBornInASpecificMonth/build/)
+        * [Github source](https://github.com/eugenewolf507/showUsersBornInASpecificMonth)
 
 6. Experience:
     * Kiev Association of Cyclists - Front-end developer

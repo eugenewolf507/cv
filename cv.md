@@ -4,8 +4,8 @@
     * (093) 775-01-39 (Telegram, Viber)
     * EugeneWolf507@gmail.com
     * skype EugeneWolf507
-    * http://linkedin.com/in/eugene-volkov
-    * http://github.com/eugenewolf507
+    * [LinkedIn](http://linkedin.com/in/eugene-volkov)
+    * [GitHub](http://github.com/eugenewolf507)
 
 3. Summary:
     * I want to grow as front-end JS developer. 
@@ -27,12 +27,12 @@
 5. Code examples:
     * Movie library
         * [React, Redux, Router, Thunk, Axios, CSS Modules, Mobile-first]
-        * https://eugenewolf507.github.io/MovieApp/#/
-        * https://github.com/eugenewolf507/MovieApp
+        * [Github Pages]()https://eugenewolf507.github.io/MovieApp/#/)
+        * [Github source]()https://github.com/eugenewolf507/MovieApp)
     * Show Users Born In A Specific Month
         * [React, Axios, CSS Modules, Mobile-first]
-        * https://eugenewolf507.github.io/showUsersBornInASpecificMonth/build/
-        * https://github.com/eugenewolf507/showUsersBornInASpecificMonth
+        * [Github Pages]()https://eugenewolf507.github.io/showUsersBornInASpecificMonth/build/)
+        * [Github source]()https://github.com/eugenewolf507/showUsersBornInASpecificMonth)
 
 6. Experience:
     * Kiev Association of Cyclists - Front-end developer
@@ -41,9 +41,9 @@
         * Hackathon was held by U-Lead European Union in Trostianets
         * [ HTML5, CSS3, JS (ES6), Google Maps API ]
         * Team of 7 people.
-        * http://maps.avk.org.ua/ 
-        * http://dehack.tech/trostianets/
-        * http://github.com/eugenewolf507/dehack2018tr
+        * [Hosted App](http://maps.avk.org.ua/ )
+        * [About Hackathon](http://dehack.tech/trostianets/)
+        * [Github source](http://github.com/eugenewolf507/dehack2018tr)
     * Teleoptic PRC (PRA), Ltd - MATLAB developer
         * 11.2010 — 01.2016
         * Research in X-Ray 3D and 4D stereoscopy

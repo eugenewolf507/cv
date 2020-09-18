@@ -14,9 +14,15 @@ html {
 /* Wrapping element for all content */
 .wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   max-width: 1024px;
   margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .wrapper {
+    flex-direction: row;
+  }
 }
 
 /* HEADER section with photo, sername and vacancy*/
@@ -38,15 +44,12 @@ html {
 .header__surname {
   padding-top: .5%;
   margin-bottom: 0;
-  /* font-size: 3.9rem; */
   font-size: 2.2rem;
   font-weight: 400;
 }
 
 .header__vacancy {
   margin-bottom: 10%;
-  /* color: #3478d5; */
-  /* font-size: 1.6rem; */
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -66,19 +69,26 @@ info - placed right for desktop and in the end for mobile
 }
 
 .info {
-  width: 38%;
-  flex-shrink: 3;
+  width: 100%;
   background-color: #2f5597;
   color: #fff;
-  /* border-right: 1px solid #3478d5; */
-  /* outline: 1px solid rgb(214, 84, 84); */
 }
 
 .experience {
-  width: 62%;
-  /* outline: 1px solid rgb(214, 84, 84); */
-  flex-shrink: 3;
+  width: 100%;
 }
+
+@media (min-width: 600px) {
+  .info {
+    width: 38%;
+  }
+
+  .experience {
+    width: 62%;
+  }
+
+}
+
 
 /* Styling special SECTIONS - CONTACTS and SKILLS */
 .contacts__list {
@@ -103,7 +113,6 @@ info - placed right for desktop and in the end for mobile
 .skills__list > li::before {
   padding-right: 20px;
   content: "• ";
-  /* color: #3478d5; */
   color: #fff;
 }
 

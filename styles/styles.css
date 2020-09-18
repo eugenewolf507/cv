@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "liberation_sansregular";
+  src: url("../fonts/LiberationSans-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 14px;
+  font-family: "liberation_sansregular", "Verdana", "Roboto", sans-serif;
+}
+
+
+/* Wrapping element for all content */
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* HEADER section with photo, sername and vacancy*/
+
+.header {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header__photo {
+  width: 70%;
+  height: auto;
+  margin-top: 11%;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.header__surname {
+  padding-top: .5%;
+  margin-bottom: 0;
+  /* font-size: 3.9rem; */
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.header__vacancy {
+  margin-bottom: 10%;
+  /* color: #3478d5; */
+  /* font-size: 1.6rem; */
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* LAYOUT for main part
+info - all info without examples and experience
+info - placed left for desktop and after header for mobile
+
+experience  - examples and experience
+info - placed right for desktop and in the end for mobile
+*/
+
+.info,
+.experience {
+  padding: .1rem 3rem;
+  box-sizing: border-box;
+}
+
+.info {
+  width: 38%;
+  flex-shrink: 3;
+  background-color: #2f5597;
+  color: #fff;
+  /* border-right: 1px solid #3478d5; */
+  /* outline: 1px solid rgb(214, 84, 84); */
+}
+
+.experience {
+  width: 62%;
+  /* outline: 1px solid rgb(214, 84, 84); */
+  flex-shrink: 3;
+}
+
+/* Styling special SECTIONS - CONTACTS and SKILLS */
+.contacts__list {
+  padding: 0;
+  list-style: none;
+}
+
+.contacts__list a { color: #fff; }
+
+.contacts__list svg {
+  width: 15px;
+  height: 15px;
+  padding-right: 25px;
+  fill: #fff;
+}
+
+.skills__list {
+  padding: 0;
+  list-style: none;
+}
+
+.skills__list > li::before {
+  padding-right: 20px;
+  content: "• ";
+  /* color: #3478d5; */
+  color: #fff;
+}
+
+/* Styling SECTIONS */
+
+.section__header {
+  margin: 30px 0 15px 0;
+  border-bottom: 2px solid #2f5597;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.section__subheader {
+  margin: 15px 0 7px 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: .09rem;
+}
+
+.section__paragraph { margin: 7px 0; }
+
+.section__paragraph,
+.section__list,
+.contacts__list,
+.skills__list { font-size: 1.2rem; }
+
+.section__list {
+  padding: 0;
+  list-style: none;
+}
+
+.section__sublist {
+  padding-left: 18px;
+  list-style: "-  " outside;
+}
+
+.section__sublist > li { padding: .1rem 0; }
+
+.section__sublist a { color: #2f5597; }
